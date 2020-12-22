@@ -1,0 +1,15 @@
+<div class="container bg-light p-5">
+    <div class="col-md-12"></div>
+        <div class="row">
+             {{#each task}}
+            <div class="col-md-4 mt-4">
+                <div class="card p-4">
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+                <p>Date: {{date}}</p>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
